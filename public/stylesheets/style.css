@@ -1,0 +1,33 @@
+* {
+  box-sizing: border-box;
+  font-family: Helvetica;
+  color: #424748;
+}
+
+a {
+  color: blue
+}
+
+th {
+  padding-right: 60px;
+}
+
+nav {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
+
+#show-page {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 1rem;
+}
+
+#show-page div:nth-child(even) {
+  font-weight: bold;
+}
+
+form {
+  padding-top: 10px;
+  padding-bottom: 10px;
+}
